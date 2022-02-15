@@ -61,4 +61,16 @@ public class TestEmployeeSystem {
 
     }
 
+    @Test
+    public void checkRemoveEmployeeTest(){
+        int expected = 2;
+
+        ArrayList<Employee> employees = new ArrayList<Employee>();
+
+        TestObjectSystem.addEmployee(TestObject1);
+        TestObjectSystem.addEmployee(TestObject2);
+        TestObjectSystem.addEmployee(TestObject3);
+
+        TestObjectSystem.removeEmloyee();
+    }
 }
