@@ -75,4 +75,11 @@ public class EmployeeTest {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void checkGetEnameTest(){
+        String expected = "Nilsson";
+
+        String actual = TestObject1.getEname();
+    }
+
 }
