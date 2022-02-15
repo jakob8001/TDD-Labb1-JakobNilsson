@@ -90,6 +90,10 @@ public class EmployeeTest {
 
         TestObject1.setEname(expected);
 
+        String actual = TestObject1.getEname();
+
+        Assertions.assertEquals(expected, actual);
+
 
     }
 
