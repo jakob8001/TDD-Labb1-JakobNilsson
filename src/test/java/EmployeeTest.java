@@ -97,4 +97,12 @@ public class EmployeeTest {
 
     }
 
+    @Test
+    public void checkGetAgeTest(){
+        int expected = 23;
+
+        int actual = TestObject1.getAge();
+
+    }
+
 }
