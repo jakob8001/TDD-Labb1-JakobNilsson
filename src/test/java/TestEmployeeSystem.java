@@ -29,7 +29,7 @@ public class TestEmployeeSystem {
     }
 
     @Test
-    public void checkGetEmployeeListTest(){
+    public void checkGetEmployeeListTest() {
 
     }
 
