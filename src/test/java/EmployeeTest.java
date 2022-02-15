@@ -123,5 +123,7 @@ public class EmployeeTest {
         double expected = 30500.00;
 
         double actual = TestObject1.getSalory();
+
+        Assertions.assertEquals(expected,actual);
     }
 }
