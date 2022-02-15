@@ -69,6 +69,10 @@ public class EmployeeTest {
         String expected = "Göran";
 
         TestObject1.setFname(expected);
+
+        String actual =TestObject1.getFname();
+
+        Assertions.assertEquals(expected,actual);
     }
 
 }
