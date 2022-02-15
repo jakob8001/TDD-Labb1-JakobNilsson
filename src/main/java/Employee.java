@@ -3,6 +3,7 @@ public class Employee {
     private int ID;
     private static int counter;
     private String Fname;
+    private String Ename;
 
 public Employee(String Fname, String Ename, int age, double Salary){
 
@@ -10,6 +11,7 @@ public Employee(String Fname, String Ename, int age, double Salary){
         ID = counter;
 
         this.Fname = Fname;
+        this.Ename = Ename;
     }
 
     public int getUniqueID() {
@@ -22,5 +24,9 @@ public Employee(String Fname, String Ename, int age, double Salary){
 
     public void setFname(String newFname) {
         Fname = newFname;
+    }
+
+    public String getEname() {
+        return Ename;
     }
 }
