@@ -5,6 +5,7 @@ public class Employee {
     private String Fname;
     private String Ename;
     private int Age;
+    private double Salory;
 
 public Employee(String Fname, String Ename, int age, double Salary){
 
@@ -14,6 +15,7 @@ public Employee(String Fname, String Ename, int age, double Salary){
         this.Fname = Fname;
         this.Ename = Ename;
         this.Age = age;
+        this.Salory = Salary;
     }
 
     public int getUniqueID() {
@@ -44,5 +46,9 @@ public Employee(String Fname, String Ename, int age, double Salary){
 
     public void setAge(int newAge) {
         Age = newAge;
+    }
+
+    public double getSalory() {
+        return Salory;
     }
 }
