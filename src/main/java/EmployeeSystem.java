@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class EmployeeSystem {
@@ -6,5 +5,9 @@ public class EmployeeSystem {
 
     public ArrayList<Employee> getEmployeeList() {
         return employees;
+    }
+
+    public void addEmployee(Employee testObject1) {
+
     }
 }
