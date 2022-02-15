@@ -27,10 +27,11 @@ public class EmployeeTest {
         TestObject1 = new Employee("Jakob","Nilsson",33,30500.00);
     }
 
+    @Test
+    public void checkGetUniqueID(){
+        int expected = 1;
 
-
-
-
-
+        int actual = TestObject1.getUniqueID();
+    }
 
 }
