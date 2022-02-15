@@ -54,6 +54,10 @@ public class TestEmployeeSystem {
 
         employees = TestObjectSystem.getEmployeeList();
 
+        int actual = employees.size();
+
+        Assertions.assertEquals(expected,actual);
+
     }
 
 }
