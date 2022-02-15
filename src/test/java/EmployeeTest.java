@@ -126,4 +126,11 @@ public class EmployeeTest {
 
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    public void checkSetSaloryTest(){
+        double expected = 40600.00;
+
+        TestObject1.setSalory(expected);
+    }
 }
