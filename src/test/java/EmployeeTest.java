@@ -80,6 +80,8 @@ public class EmployeeTest {
         String expected = "Nilsson";
 
         String actual = TestObject1.getEname();
+
+        Assertions.assertEquals(expected,actual);
     }
 
 }
