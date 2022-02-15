@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.*;
 
+import java.util.ArrayList;
+
 public class TestEmployeeSystem {
     Employee TestObject1;
     EmployeeSystem TestObjectSystem;
@@ -31,8 +33,8 @@ public class TestEmployeeSystem {
     @Test
     public void checkGetEmployeeListTest() {
         int expected = 3;
-
-        int actual = TestObjectSystem.getEmployeeList();
+        ArrayList<Employee> employees = new ArrayList<Employee>();
+        employees = TestObjectSystem.getEmployeeList();
     }
 
 }
