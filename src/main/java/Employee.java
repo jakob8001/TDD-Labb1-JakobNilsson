@@ -19,4 +19,8 @@ public Employee(String Fname, String Ename, int age, double Salary){
     public String getFname() {
         return Fname;
     }
+
+    public void setFname(String newFname) {
+        Fname = newFname;
+    }
 }
