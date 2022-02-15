@@ -38,6 +38,13 @@ public class TestEmployeeSystem {
 
         int actual = employees.size();
 
+    }
+    @Test
+    public void checkAddEmployeeTest(){
+        int expected = 3;
+        ArrayList<Employee> employees = new ArrayList<Employee>();
+        TestObjectSystem.addEmployee();
+
 
     }
 
