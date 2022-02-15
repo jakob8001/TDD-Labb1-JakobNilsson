@@ -88,7 +88,9 @@ public class EmployeeTest {
     public void checkSetEnameTest(){
         String expected = "davidsson";
 
-        String actual = TestObject1.setEname(expected);
+        TestObject1.setEname(expected);
+
+
     }
 
 }
