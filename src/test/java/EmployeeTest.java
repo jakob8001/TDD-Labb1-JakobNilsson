@@ -8,40 +8,40 @@ public class EmployeeTest {
 
 
     @BeforeAll
-    public static void beforeAll(){
+    public static void beforeAll() {
         System.out.println("Testsvit påbörjad");
     }
 
     @AfterAll
-    public static void aferAll(){
+    public static void aferAll() {
         System.out.println("testsvit avslutad");
     }
 
     @AfterEach
-    public void afterEach(){
+    public void afterEach() {
         System.out.println("Slut: ");
     }
 
     @BeforeEach
-    public void beforEach(){
+    public void beforEach() {
         System.out.println("start: ");
 
-        TestObject1 = new Employee("Jakob","Nilsson",23,30500.00);
+        TestObject1 = new Employee("Jakob", "Nilsson", 23, 30500.00);
         TestObject2 = new Employee("Marcus", "Davidsson", 33, 30500.00);
         TestObject3 = new Employee("Anki", "Pham", 24, 30500.00);
     }
 
     @Test
-    public void checkGetUniqueID(){
+    public void checkGetUniqueID() {
         int expected = 1;
 
         int actual = TestObject1.getUniqueID();
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void checkUniqueID(){
+    public void checkUniqueID() {
         int expected1 = 1;
         int expected2 = 2;
         int expected3 = 3;
@@ -50,13 +50,17 @@ public class EmployeeTest {
         int actual2 = TestObject2.getUniqueID();
         int actual3 = TestObject3.getUniqueID();
 
-        Assertions.assertEquals(expected1,actual1);
-        Assertions.assertEquals(expected2,actual2);
-        Assertions.assertEquals(expected3,actual3);
+        Assertions.assertEquals(expected1, actual1);
+        Assertions.assertEquals(expected2, actual2);
+        Assertions.assertEquals(expected3, actual3);
     }
 
+    @Test
+    public void checkGetFnameTest() {
+        String expected = "Jakob";
 
-
+        String actual = TestObject1.getFname();
+    }
 
 
 }
