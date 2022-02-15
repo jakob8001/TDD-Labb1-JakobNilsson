@@ -33,7 +33,7 @@ public class EmployeeTest {
 
         int actual = TestObject1.getUniqueID();
 
-
+        Assertions.assertEquals(expected,actual);
     }
 
 }
