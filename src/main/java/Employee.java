@@ -55,4 +55,5 @@ public Employee(String Fname, String Ename, int age, double Salary){
     public void setSalory(double newSalory) {
         Salory = newSalory;
     }
+
 }
