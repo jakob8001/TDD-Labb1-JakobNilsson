@@ -47,8 +47,12 @@ public class TestEmployeeSystem {
     public void checkAddEmployeeTest(){
         int expected = 3;
         ArrayList<Employee> employees = new ArrayList<Employee>();
-        TestObjectSystem.addEmployee(TestObject1,TestObject2,TestObject3);
 
+        TestObjectSystem.addEmployee(TestObject1);
+        TestObjectSystem.addEmployee(TestObject2);
+        TestObjectSystem.addEmployee(TestObject3);
+
+        employees = TestObjectSystem.getEmployeeList();
 
     }
 
