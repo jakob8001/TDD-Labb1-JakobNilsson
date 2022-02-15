@@ -103,6 +103,8 @@ public class EmployeeTest {
 
         int actual = TestObject1.getAge();
 
+        Assertions.assertEquals(expected,actual);
+
     }
 
 }
