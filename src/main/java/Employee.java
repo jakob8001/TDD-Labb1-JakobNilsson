@@ -51,4 +51,8 @@ public Employee(String Fname, String Ename, int age, double Salary){
     public double getSalory() {
         return Salory;
     }
+
+    public void setSalory(double newSalory) {
+        Salory = newSalory;
+    }
 }
