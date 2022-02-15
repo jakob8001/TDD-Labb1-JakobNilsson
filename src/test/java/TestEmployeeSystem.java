@@ -36,6 +36,9 @@ public class TestEmployeeSystem {
         ArrayList<Employee> employees = new ArrayList<Employee>();
         employees = TestObjectSystem.getEmployeeList();
 
+        int actual = employees.size();
+
+
     }
 
 }
