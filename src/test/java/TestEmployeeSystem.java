@@ -62,7 +62,7 @@ public class TestEmployeeSystem {
     }
 
     @Test
-    public void checkRemoveEmployeeTest(){
+    public void checkRemoveEmployeeTest() {
         int expected = 2;
 
         ArrayList<Employee> employees = new ArrayList<Employee>();
@@ -77,6 +77,6 @@ public class TestEmployeeSystem {
 
         int actual = employees.size();
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 }
