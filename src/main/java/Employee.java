@@ -42,4 +42,7 @@ public Employee(String Fname, String Ename, int age, double Salary){
     }
 
 
+    public void setAge(int newAge) {
+        Age = newAge;
+    }
 }
