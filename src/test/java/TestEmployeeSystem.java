@@ -30,9 +30,7 @@ public class TestEmployeeSystem {
 
     @Test
     public void checkGetEmployeeListTest(){
-        int expected = 3;
 
-        int actual =
     }
 
 }
