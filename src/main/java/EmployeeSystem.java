@@ -11,7 +11,7 @@ public class EmployeeSystem {
         employees.add(testObject);
     }
 
-    public void removeEmloyee() {
+    public void removeEmloyee(Employee testObject1) {
 
     }
 }
