@@ -45,20 +45,7 @@ public class EmployeeTest {
         Assertions.assertEquals(expected3,actual3);
     }
 
-    @Test
-    public void checkUniqueID() {
-        int expected1 = 1;
-        int expected2 = 2;
-        int expected3 = 3;
 
-        int actual1 = TestObject1.getUniqueID();
-        int actual2 = TestObject2.getUniqueID();
-        int actual3 = TestObject3.getUniqueID();
-
-        Assertions.assertEquals(expected1, actual1);
-        Assertions.assertEquals(expected2, actual2);
-        Assertions.assertEquals(expected3, actual3);
-    }
 
     @Test
     public void checkGetFnameTest() {
