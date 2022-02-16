@@ -45,8 +45,6 @@ public class EmployeeTest {
         Assertions.assertEquals(expected3,actual3);
     }
 
-
-
     @Test
     public void checkGetFnameTest() {
         String expected = "Jakob";
